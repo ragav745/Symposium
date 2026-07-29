@@ -1,5 +1,5 @@
 
-/* p{ 
+ p{ 
     color:blanchedalmond
 }
 form,p{
@@ -59,50 +59,4 @@ h5,h2{
     gap: 20px;
     grid-auto-flow: row;  
 
-}*/
-.row{
-    background-color:purple;
-    color:white;
-    border: 2px solid black;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero{
-    height:600px;
-    background-color:blueviolet;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 200px 100px 100px 100px;
-    grid-template-areas:
-    "he he he"
-    "h h h"
-    "p1 p2 p3"
-    "c c c"
-    "f f f"
-    ;
-   gap: 20px;
-}
-#head{
-    grid-area: he;
-    /*padding: 2px;
-    height: 10px;*/
-}
-#hero{
-    grid-area: h;
-}
-#p1{
-    grid-area: p1;
-}
-#p2{
-    grid-area: p2;
-}
-#p3{
-    grid-area: p3;
-}
-#contact{
-    grid-area: c;
-}
-#footer{
-    grid-area: f;
 }
