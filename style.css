@@ -1,0 +1,108 @@
+
+/* p{ 
+    color:blanchedalmond
+}
+form,p{
+    color:Red;
+   
+}
+h1{
+    color:blue;
+    border:2px solid black;
+    padding:25px;
+    background-color: antiquewhite;
+    margin:24px;
+}
+h4{
+    color:blueviolet;
+    padding:25px;
+    margin:10px;
+}
+h5,h2{
+
+    color:brown;
+    border:2px solid black;
+    padding:25px;
+    /* background-color: antiquewhite; 
+    margin:24px;
+    background-color: aquamarine;
+}
+.box{
+    width: 100px;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+.container{
+    background-color: aqua;
+    height:600px;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    gap:30px;
+} 
+ .box{
+    background-color: blue;
+    color:white;
+    border: 3px solid black;
+ }
+.container{
+    height:600px;
+    background-color: aqua;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    grid-auto-flow: row;  
+
+}*/
+.row{
+    background-color:purple;
+    color:white;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    height:600px;
+    background-color:blueviolet;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 100px 100px 100px;
+    grid-template-areas:
+    "he he he"
+    "h h h"
+    "p1 p2 p3"
+    "c c c"
+    "f f f"
+    ;
+   gap: 20px;
+}
+#head{
+    grid-area: he;
+    /*padding: 2px;
+    height: 10px;*/
+}
+#hero{
+    grid-area: h;
+}
+#p1{
+    grid-area: p1;
+}
+#p2{
+    grid-area: p2;
+}
+#p3{
+    grid-area: p3;
+}
+#contact{
+    grid-area: c;
+}
+#footer{
+    grid-area: f;
+}
